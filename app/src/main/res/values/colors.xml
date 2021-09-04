@@ -6,4 +6,5 @@
 
     <color name="colorBackground">#EEEEEE</color>
     <color name="colorButton">#F1F3F6</color>
+    <color name="black">#000000</color>
 </resources>
