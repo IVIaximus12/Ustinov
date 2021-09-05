@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener oclBtnLeft = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PostModel post = postModels.get(currentNumberModel - 1);
+                currentNumberModel--;
+                PostModel post = postModels.get(currentNumberModel);
                 textView.setText(post.description);
                 getGif(post.gifURL);
             }
