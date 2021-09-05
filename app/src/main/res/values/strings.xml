@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Ustinov_lab</string>
     <string name="main_title">Developers Life</string>
+    <string name="no_internet">Произошла ошибка при загрузке данных.
+        Проверьте подключение к сети</string>
+    <string name="repeat_button">ПОВТОРИТЬ</string>
 </resources>
